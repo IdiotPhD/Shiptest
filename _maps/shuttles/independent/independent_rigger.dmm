@@ -2241,6 +2241,10 @@
 	pixel_x = 6;
 	pixel_y = -33
 	},
+/obj/item/bikehorn/rubberducky{
+	pixel_x = 7;
+	pixel_y = 15
+	},
 /turf/open/floor/plasteel/mono,
 /area/ship/crew/ccommons)
 "nY" = (
@@ -6466,17 +6470,13 @@
 	pixel_x = -1;
 	pixel_y = 7
 	},
-/obj/item/bikehorn/rubberducky{
-	pixel_x = 3;
-	pixel_y = -6
-	},
-/obj/item/towel{
-	pixel_x = -3;
-	pixel_y = -3
-	},
 /obj/structure/curtain/thin{
 	pixel_x = 0;
 	pixel_y = -1
+	},
+/obj/item/towel{
+	pixel_x = 1;
+	pixel_y = -3
 	},
 /turf/open/floor/noslip,
 /area/ship/crew/toilet)
@@ -6746,15 +6746,17 @@
 /obj/effect/turf_decal/corner/opaque/black/diagonal{
 	dir = 4
 	},
+/obj/machinery/power/apc/auto_name/directional/west{
+	pixel_x = -24;
+	pixel_y = 0
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /obj/structure/window/reinforced/spawner/east{
 	pixel_x = 0;
 	pixel_y = 0
 	},
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/airalarm/directional/west,
 /turf/open/floor/plasteel,
 /area/ship/crew/toilet)
 "Ov" = (
@@ -8168,7 +8170,8 @@
 /obj/structure/sink/kitchen/counter{
 	dir = 1;
 	pixel_x = 4;
-	pixel_y = -1
+	pixel_y = -1;
+	name = "bathroom sink"
 	},
 /obj/structure/cable{
 	icon_state = "1-8"
